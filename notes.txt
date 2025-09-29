@@ -1,0 +1,11 @@
+Here’s a very simple explanation of both:
+
+MMR Retriever: Picks documents that fit the query but makes sure the results are not all saying the same thing. It gives a mix of relevant and different information, so there’s no repetition.
+
+ContextualCompressRetriever: After picking relevant documents, it cuts down (summarizes) each one to keep only the parts that truly match the query, so only the important sentences are kept and sent to the AI.
+
+In short:
+
+MMR means “no repeats, just different good answers.”
+
+ContextualCompress means “trim documents to only what matters for the question.”
